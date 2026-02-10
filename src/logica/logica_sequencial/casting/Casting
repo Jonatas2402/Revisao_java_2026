@@ -1,0 +1,9 @@
+CASTING (conversão de tipos)
+
+- conversão implicita: Ocorre automaticamente quando convertemos um tipo menor para um tipo maior.
+int i = 10;
+double d = i;
+
+- coversão explicita: Precisamos fazer manualmente ao converter um tipo maior opara um menor.
+double d2 = 10.5;
+int i2 = (int) d2;

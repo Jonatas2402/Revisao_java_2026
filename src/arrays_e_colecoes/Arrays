@@ -1,0 +1,23 @@
+ARRAYS
+
+- Arrays são estruturas de dados que armazenam uma coleção de elementos do mesmo tipo,
+em uma sequência ordenada.
+
+- Útil para armazenar um número fixo de elementos.
+- O tamanho de um array é definido no momento da sua criação, e não pode ser alterado.
+
+- Todos os elementos em um array devem ser do mesmo tipo.
+- Os elementos sempre começam com 0, então se um array tem 5 elementos eles vão de 0 a 4.
+
+- Duas formas de inicializar:
+int[] numeros = {1,2,3,4,5};
+String[] frutas = {"maçâ", "Banana", "Laranja"};
+ou
+
+int[] numeros = new int[5];
+
+numeros[0] = 1;
+numeros[1] = 2;
+numeros[2] = 3;
+numeros[3] = 4;
+numeros[4] = 5;

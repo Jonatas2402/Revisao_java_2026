@@ -1,0 +1,13 @@
+ENTRADA E SAIDA DE DADOS
+
+- Entrada de dados
+A entrada de dados é feita atraves do Scanner, uma classe do java que é responsavel por ler a entrada do usuário.
+O scanner é utilizado de diversas formas diferentes.
+Para fazer a leitura de um String é utilizado scanner.nextLine ou scanner.next
+Para cada tipo primitivo existe um método do scanner para fazer a leitura.
+
+- Saida de dados
+A saida de dados é feita atraves do comando System.out.print()
+Esse comando tem diversas variações
+como a que pula uma linha(System.out.prinln()).
+e a que faz a impressão formatada(System.out.printf()).

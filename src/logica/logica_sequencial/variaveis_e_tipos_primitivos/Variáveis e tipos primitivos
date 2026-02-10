@@ -1,0 +1,39 @@
+Variáveis
+
+- Variáveis são espaços na memoria do computador(Ram) onde podemos armazenar dados.
+como se fossem caixas que podemos armazenar coisas nela.
+
+- Para declarar uma variável precisamos especificar seu tipo e seu nome.
+por exemplo:
+int idade; /um número inteiro com o nome idade.
+
+para iniciarmos essa variável atribuimos o seu valor.
+por exemplo:
+idade = 25;
+
+Toda variável tem um objetivo.
+
+CONVERÇÕES DE NOMECLATURA
+
+- Nomes de variáveis devem iniciar com letra menuscula e seguir o padrão camelCse.
+
+
+TIPOS PRIMITIVOS
+
+Os tipos primitivso em java são os tipos de variável. O tipo de "caixa" que guarda o valor.
+cada tipo primitivo guarda uma quantidade de bytes.
+
+por exemplo o byte sõ permite guardar valores entre -128 e 127.
+por isso que no desenvolvimento web o byte e o short não é utilizado.
+- Inteiros: byte, short, int e long.
+no desenvolvimento web o byte e o short não são muito utilizados por não guardarem números grandes.
+o long para se diferenciar do int é adicionado o sufixo L ao número.
+
+- Ponto Flutuante: float, double.
+o float para se diferenciar do float acrecenta-se o f no final do número.
+
+- Caracter: char.
+O char guarda um único valor caracter unicode.
+
+- Booleano: boolean.
+O boolean guarda um valor verdade (true ou false) verdadeiro ou falso.

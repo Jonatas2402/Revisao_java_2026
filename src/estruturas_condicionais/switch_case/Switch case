@@ -1,0 +1,15 @@
+SWITCH CASE
+
+- Uma alternativa ao if-else quadno há muitas condições
+relacionadas ao mesmo valor.
+
+switch (expressão){
+case valor1:
+
+break;
+case valor2:
+
+break;
+default:
+
+}

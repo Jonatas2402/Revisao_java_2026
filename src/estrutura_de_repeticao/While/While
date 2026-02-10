@@ -1,0 +1,16 @@
+ESTRUTURA DE REPETIÇÃO
+
+- Estruturas repetitivas permitem que um bloco de código seja executado varias vezes,
+enquanto uma condição especifica for verdadeira.
+
+- Principais estruturas repetitivas em java: while, do while e for.
+
+- ESTRUTURA WHILE
+
+- A estrutura while(enquanto) executa um bloco de código repetidamente, enquanto a condição
+especificada for verdadeira.
+Ele verifica a condição no início
+
+While(condição){
+
+}

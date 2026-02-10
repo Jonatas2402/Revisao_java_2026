@@ -1,0 +1,9 @@
+Leia 2 valores inteiros (A e B).
+Após, o programa deve mostrar uma mensagem "Sao Multiplos" ou "Nao sao
+Multiplos", indicando se os valores lidos são múltiplos entre si.
+Atenção: os números devem poder ser digitados em
+ordem crescente ou decrescente
+
+- Resolução: Verificar se os dois números são divididos por 2 usando o operador E(AND).
+Dessa forma é verificado os dois números valores se um deles não for divisor de 2.
+ele já valoda como não são multiplos.

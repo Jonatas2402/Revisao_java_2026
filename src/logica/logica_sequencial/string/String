@@ -1,0 +1,11 @@
+STRING
+
+- O tipo String é usado para armazenar um conjunto de caracter.
+Strings são usadas para armazenar e manipular texto.
+
+CONCATENANDO STRINGS
+
+- Usamos o operador + para concatenar (juntar) strings:
+String saudacao = "Olá, " + nome + "!";
+
+- Com strings o operador + tem a função de concatenação em vez de soma.

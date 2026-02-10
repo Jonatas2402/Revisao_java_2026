@@ -1,0 +1,11 @@
+EXPRESSÃO TERNÁRIA
+
+- Uma forma compacta de escrever um if-else que retorna um valor:
+
+variavel = (condição)? valorSeVerdade : valorSeFalso;
+
+mensagem = (idade >= 18)? "Você é maior" : "Você é menor";
+
+- Sendo
+if = ?
+else = :

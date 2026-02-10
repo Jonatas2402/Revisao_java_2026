@@ -1,0 +1,17 @@
+OPERADORES ARITMETICOS
+
+- Os operadores aritmeticos são usados para realizar cálculos matemáticos.
+
+- Soma (+).
+- Subtração (-).
+- Multiplicação (*).
+- Divisão (/).
+- Módulo (%), que retorna o resto da divisão.
+
+- PRECEDÊNCIA DE OPERADORES
+
+A precedência dos operadores determina a ordem em que as operações são executadas.
+Multiplicação e divisão tem precedência maior que adição e subtração.
+Usamos parênteses para alterar a ordem.
+
+Os operadores aritmeticos só servem para double, int , long e float.

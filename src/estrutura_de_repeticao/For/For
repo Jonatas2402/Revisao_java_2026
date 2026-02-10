@@ -1,0 +1,8 @@
+FOR
+
+- A estrutura for é usada para repetir um bloco de código
+ um número especifico de vezes.
+
+ for(inicialização; condição; incremento){
+
+ }

@@ -1,0 +1,25 @@
+IF ELSE
+
+- O if else é uma estrutura condiconal que se uma condição for verdadeira ele executa um bloco de código, e se or falso ele executa outro.
+
+- Sintaxe:
+if(condição){
+se for verdadeiro executa esse código.
+}else{
+se for falso executa esse código.
+}
+
+- O if pode ser usado sozinho e é executado quando a condição for verdadeira.
+- EX: if(condição){
+se for verdadeiro executa esse código.
+}
+
+- E existe o else if, que é utilizado para mais de uma condição.
+
+- EX: if(condição1){
+se for verdadeiro executa esse código.
+}if else(condição2){
+se for verdadeiro executa esse código.
+}else{
+Se nenhuma das anteriores for verdadeira.
+}

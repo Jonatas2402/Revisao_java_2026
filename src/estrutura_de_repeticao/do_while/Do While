@@ -1,0 +1,9 @@
+DO WHILE
+
+- A estrutura do-while é semelhante ao while, mas garante que o bloco do código
+seja executado pelo menos uma vez pois a condição é verificada no final do
+loop.
+
+do{
+
+}while(condição);

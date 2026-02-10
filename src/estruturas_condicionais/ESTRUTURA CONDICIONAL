@@ -1,0 +1,18 @@
+ESTRUTURAS CONDICIONAIS
+
+- Estrutura condicionais: permitem que seu programa tome decisões e execute diferentes
+blocos de código com base em certas codições.
+
+- A estrutura condicional mais comum é o if-else.
+
+EXPRESSÕES COMPARATIVAS
+- Expressões que comparam dois valores e retornam um valor booleano(true ou false).
+
+- Operadores comparativos
+
+- == igual a,
+- != diferente de,
+- > maior que,
+- < menor que,
+- >= maior ou igual,
+- <= menor ou igual.
