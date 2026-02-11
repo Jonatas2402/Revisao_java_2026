@@ -1,0 +1,28 @@
+- COLEÇÕES
+
+- Coleções são estruturas de dados que permitem armazenar,
+buscar e manipular grupos de objetos de forma mais flexiveis do que arrays.
+
+- LISTAS
+
+- Uma lista em java é uma coleção ordenada que permite elementos duplicados.
+
+- A Interface List estende a interface Collection e fornece métodos adicionais para inserir,
+acessar, remover e iterar elementos da maneira mais controlada.
+
+- Tipo mais comum de lista:
+
+- ArrayList: Implementação de lista baseada em arrays dinâmicos.
+Funcionalidades:
+
+- DIFERENÇAS ENTRE ARRAYS E COLEÇÕES.
+
+- Arrays: O tamanho de um array é definido no momento da sua criação,
+e não pode ser alterado.
+
+Arrays podem armazenar tipos primitivos(int, double, char, etc).
+
+- Coleções: O tamanho das coleções pode crescer ou diminuir conforme necessário.
+
+Coleções armazenam apenas objetos.
+tipos primitivos devem ser usadas com wrappers(como Integer para int).

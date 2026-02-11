@@ -1,4 +1,4 @@
-package arrays_e_colecoes;
+package arrays_e_colecoes.array;
 
 public class Array {
     public static void main(String[] args) {
