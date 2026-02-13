@@ -1,0 +1,36 @@
+HERANÇA
+
+- Permite que uma classe herde atributos e métodos de outra classe, promovendo a reutilização de código.
+Reduz a duplicação do código e melhora a organização.
+
+
+- Representado pela palavra extends.
+
+- Estabelecer uma relação de "é um(a)" (is-a) entre classes.
+Uma classe filha (subclasse) herda os métodos e atributos da classe pai(superclasse).
+
+
+Ex: classe pai - animal
+classe filha - cachorro
+Cachorro é um animal.
+sendo assim cachorro vai herdar todos os comportamentos de animal.
+
+Uma classe só pode herdar de uma única classe (herança simples).
+
+
+- Diferença para classes de interface - implements
+
+- Estabelecer um contrato entre a classe e a interface(s).
+A classe se compromete a estabelecer todos os métodos declarados na interface.
+Na interface a classe é obrigada a utilizar os métodos da interface. Na herança não.
+
+Uma classe pode implementar múltiplas interfaces, o que permite a simulação de herança múltipla em Java.
+Relacionamento "pode fazer"
+
+Ex:interface Voa
+interface Nada
+
+
+classe filha - Pato
+Pato pode voar e nadar.
+

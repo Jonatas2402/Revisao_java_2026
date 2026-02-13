@@ -1,0 +1,19 @@
+ENCAPSULAMENTO
+
+- Restringir o acesso a alguns dos componentes da classe(métodos e atributos).
+geralmente tornando-os privados e fornecendo métodos publicos para acessá-los e modificá-los.
+Isso ajuda a proteger os dados internos do objeto e promove a integridade e segurança.
+(Tornando os componentes privados, utilizando os modificadores de acesso).
+
+- Proteção de dados: Impede que os dados sejam alterados diretamente de fora da classe, evitando inconsistências
+e garantindo que os dados sejam acessados e modificados de forma controlada.
+
+
+- Ocultação de informação: Esconde os detalhes internos da implementação da classe, expondo apenas
+o que for necessário para uso da classe.
+
+- Facilidade de manutenção: Permite modificar a implementação interna.
+sem afetar o código externo que usa a classe tornando a manutenção mais fácil.
+
+- Modularidade: Ajuda a dividir o programa em partes menores e mais gerenciáveis.
+

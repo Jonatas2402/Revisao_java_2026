@@ -1,0 +1,23 @@
+Hashmap
+
+- É utilizado para armazenar pares de chave-valor.
+Ele faz parte do pacote java.util
+
+- Chave-valor: Um hashMap armazena dados em pares de chave-valor.
+cada chave é unico e está associado a um valor.
+
+- Não mantem ordem dos elementos, pois usa tabela de hash para armazenar memoria
+em tempo de execução.
+
+Por esse motivo não conseguimos ordenar a chave.
+
+-TREEMAP
+
+- O treeMap também trabalha com chave e valor mas é ordenado.
+dessa forma podemos pegar a primeira e a ultima chave,
+
+- Sua principal diferença é que tem como ordena-la.
+
+- Seus comandos são os mesmos do HashMap.
+
+-Ideal quando precisamos de estruturas mais ordenadas.

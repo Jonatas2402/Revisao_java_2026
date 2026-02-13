@@ -1,0 +1,45 @@
+MÉTODOS.
+
+-  Funções(métodos): é um bloco de código que realiza uma tarefa especifica,
+que pode ser reutilizado em diferentes partes do programa.
+
+- método: termo usado usado em programação orientada a objeto(como java),
+que se refere a funções associadas a uma classe ou objeto.
+
+- Sintaxe de definição de métodos
+
+[modificador de acesso] [tipo de retorno] [nome do método]([parâmetros]){
+
+}
+
+
+- Modificador de acesso
+public: Acessivel de qualquer lugar.
+private: Acessivel apenas dentro da classe onde ela foi declarada.
+protected: Acessivel dentro do mesmo pacote ou subclasse.
+
+- Como Nomear métodos
+Nomear métodos de forma clara e descritiva é importante para a legibilidade do código.
+Algumas boas praticas incluem:
+
+- Usar verbos que descrevem a ação do método ex:(calcular, obter, exibir).
+- Usar o formato camelCase (a primeira letra da palavra começa com letra minúscula,
+e as subsequentes com letra maiúscula).
+
+
+- Tipos de Retorno
+O tipo de retorno define o tipo de dado que o método devolverá.(int, String, double, Objeto)
+Se o método não retornar nenhum valor, usamos void.
+- O retorno é o resultado de um método.
+
+- Parâmetros dos Métodos
+Os parâmetros são variaveis que você passa o método.
+Eles são definidos dentro dos parâmetros após o nome do método.
+
+Métodos da instância: Precisam ser chamadas a partir de uma instãncia(objeto) de classe.
+
+Exemplo de métodos criados na classe plantaCasa, que são acessados a partir da instância da classe.
+
+Métodos estáticos: Podem ser chamados diretamente a partir da classe, sem necessidade de criar um objeto.
+
+alguns métodos matematicos são um exemplo de metodo estático.

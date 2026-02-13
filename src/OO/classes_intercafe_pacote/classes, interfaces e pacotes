@@ -1,0 +1,16 @@
+CLASSES, INTERFACE E PACOTES
+
+- CLASSE: Uma claseé uma estrutura que define um tipo de objeto
+ela pode conter atributos(variaveis) e métodos(funções) que descrevem e manipulam.
+o objeto.
+
+
+- INTERFACE: Uma interface é uma referência a um conjunto de métodos
+que uma classe deve implementar.
+Interface são usadas para garantir que diferentes classes implementem os mesmos
+métodos, promovendo a interoperabilidade.
+
+
+- PACOTES: Um pacote é um agrupamento de classes e interfaces relacionadas.
+Ela ajuda a organizar o código e evita conflitos de nomes.
+Pacotes também ajudam a controlar o acesso as classes e interfaces.

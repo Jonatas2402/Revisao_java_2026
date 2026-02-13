@@ -1,0 +1,27 @@
+POO
+
+- Um Objeto é uma instância de una classe.
+
+em termos simples, um objeto é uma entidade,
+que possui estado(atributos) e comportamento(métodos).
+
+Exemplo:
+
+Quando vamos construir uma casa não saimos colocando tudo de qualquer jeito,
+colocando tijolos em qualquer lugar, primeiro fazemos uma planta, para definir a metragem,
+da casa, quantos quartos, quantos banheiros, etc.
+A nossa classe é a planta de uma casa, que defini todos os atributos, variaveis da casa
+Na classe podemos ter comportamentos, métodos, como por exemplo, construir(uma função).
+O objeto vai ser a nossa casa, construida com base na nossa planta.
+
+- Atributos = variaveis
+- Métodos = funções
+
+- PILARES DA POO
+
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Abstração
+
+- Os pilares do POO precisa estudar para entrevistas, qual a diferença entre elsa, qual a função delas.
