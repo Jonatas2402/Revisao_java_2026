@@ -1,0 +1,50 @@
+POLIMORFISMO
+
+
+- O terno "polimorfismo" vem do grego que significa "Muitas formas".
+Em programação, polimorfismo permite que um unico nome (método) possa se referir a diferentes comportamentos.
+dependendo do objeto que o chama.
+
+
+- Existem dois tipos principais de polimorfismo em java:
+
+- Polimorfismo de compilação (Sobrecarga de métodos).
+- Polimorfismo de tempo de execução (sobrescrita de métodos).
+
+- TEMPO DE COMPILAÇÃO:
+O QUE É?
+É a fase em que o código - fonte (o que eu escrevo) é transformado em código de maquina
+(ou bytecode, no caso do java) pelo compilador.
+
+- O QUE ACONTECE?
+Verificação de sintaxe: O compilador verifica se a linguagem foi usada corretamente(sem erro de sintaxe).
+Verificação de tipos: O compilador verifica se as variáveis e métodos são usadas com  os tipos corretos.
+Checagem de erros: Erros como métodos que não existem ou uso incorreto de métodos são detectados.
+
+O código é convertido em um formato em que o computador pode entender.
+Ex:
+se eu escrever int x = "Hello";, o compilador irá gerar um erro.
+porque eu estou tentando atribuir uma String a uma variável do tipo int.
+
+- TEMPO DE EXECUÇÃO
+O QUE É?
+É a fase em que o código compilado é executado pela maquina virtual(no caso do java, a JVM) ou pelo sistema operacional.
+
+O QUE ACONTECE?
+O programa é carregado na memoria e começa a ser executado.
+Variáveis são inicializadas , métodos são chamados e o fluxo do programa é seguido.
+Decisões sobre qual método chamar(no caso do polimorfismo) são feitos com base no tipo real do objeto.
+Ex:
+Se eu tiver uma referência a um objeto animal que na verdade é um cachorro,
+e chamar animal.fazerSom(); , em tempo de execução a JVM decide chamar o método fazerSom da classe cachorro.
+
+
+RESUMO: Tempo de compilação o compilador verifica se existe erros no código.
+Tempo de execução é quando o nosso código já está rodando na maquina virtual(JVM).
+
+- POLIMORFISMO DE COMPILAÇÃO (SOBRECARGA DE MÉTODOS)
+- A sobrecarga de métodos ocorre quando você define multiplos métodos com o mesmo nome,
+mas com diferentes assinaturas(diferente número ou tipo de parâmetros) na mesma classe.
+O compilador decide qual método chamar com base na lista de argumentos fornecidos na chamada do método.
+
+
