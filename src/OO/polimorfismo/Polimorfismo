@@ -46,5 +46,27 @@ Tempo de execução é quando o nosso código já está rodando na maquina virtu
 - A sobrecarga de métodos ocorre quando você define multiplos métodos com o mesmo nome,
 mas com diferentes assinaturas(diferente número ou tipo de parâmetros) na mesma classe.
 O compilador decide qual método chamar com base na lista de argumentos fornecidos na chamada do método.
+Ex: ter dois métodos como
+public int soma(int a, int b){
+return a + b;
+}
+
+public double soma(double a, double b){
+return a + b;
+}
+
+Tem a mesma nomeclatura mas com parâmetros e funções diferentes.
+É chamado em tempo de compilação por que sou eu que vou decidir qual usar quando passar os parâmetros.
+
+
+ POLIMORFISMO DE TEMPO DE EXECUÇÃO(SOBRESCRITA DE MÉTODOS)
+ - A sobrescrita de métodos ocorre quando uma classe filha fornece uma implementação específica
+ de um método que já está definido na classe pai.
+ Nesse caso, a decisão sobre qual método usar é feita durante a execução do programa(runtime).
+
+ Quando você usa a anotação @Override(usado em herança e interface) em uma subclasse, você está indicando ao compilador
+ que deseja fornecer uma implementação específica para um método que já está definida na superclasse.
+ No entanto, a decisão do método que será realmente executado(o da superclasse ou da subclasse) é feita
+ em tempo de execução, não em tempo de compilação.
 
 

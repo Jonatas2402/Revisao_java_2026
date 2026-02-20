@@ -1,0 +1,20 @@
+COMPOSIÇÃO E AGREGAÇÃO
+
+- Ambos são formas de "Associação" onde um objeto contém outro objeto, mas há diferenças sutis entre eles.
+
+- Composição é uma relação forte entre duas classes onde uma classe contém uma instância de outra classe
+como um de seus atributos.
+
+- A vida do objeto contido e está diretamente ligada à vida do objeto que o contém.
+Se o objeto que contém for destruído, o objeto contido também será destruído.
+
+- Isso significa que a composição representa uma relação "parte - todo" onde o ciclo de vida dos objetos
+é dependente.
+
+- Agregação é uma relação mais fraca onde uma classe contém uma referência de outra classe, mas o ciclo
+de vida dos objetos não está estritamente ligado.
+
+- Em outras palavras, o objeto contido pode existir independentemente do objeto que o contém.
+Isso representa uma relação "associação" onde a parte pode existir sem o todo.
+
+Essas definições são simbolicas, não existe diferença no código
