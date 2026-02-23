@@ -5,4 +5,11 @@ ABSTRAÇÃO
 com suas propriedades e comportamentos mais relevantes, ignorando os detalhes que não são importantes
 para o contexto específico.
 
-- Objetivo: Simplificar
+- Objetivo: Simplificar a complexidade do sistema, tornando mais facil para desenvolvedores
+e utilizarem os objetos sem se preocuparem com os detalhes internos.
+
+- Identificação dos aspectos essenciais: Determina quais atributos e métodos são relevantes
+para a entidade que você está modelando.
+
+- Ocultação de detalhes complexos: oculta a implementação dos métodos, fornecendo apenas a assinatura
+do método(no caso de métodos abstratos) ou uma interface que define os métodos que a classe deve implementar.

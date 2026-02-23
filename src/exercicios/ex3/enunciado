@@ -1,0 +1,7 @@
+Fazer uma classe produto, com os atributos nome, preço, quantidade.
+
+métodos: calcularValorTotal();
+adicionarEstoque(int quantidade);
+removerEstoque(int quantidade();
+
+testar tudo no main.
