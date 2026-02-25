@@ -1,0 +1,71 @@
+Exceçõ~es
+
+
+- Permite que os desenvolvedores lidem com situações inesperadas ou erros de forma controlada,
+evitando que o programa termine de forma abrupta.
+
+- Por que usar exceções?
+
+- Manutenção e depuração: exceções  ajudam a identificar onde o erro ocorreu e qual foi a causa,
+facilitando a depuração e manutenção do código.
+
+- Controle de fluxo: Permite ao desenvolvedor gerenciar o fluxo do programa em situações
+excepcionais sem interromper a execução normal do código.
+
+- Robustez e confiabilidade: Programas que tratam adequadamente as exceções
+são mais robustos e menos propensos a falhas inesperadas.
+
+
+- TIPOS DE EXCEÇÕES
+
+- 1_Exceções verificadas: As exceções verificadas são aquelas que o compilador exige que sejam tratadas ou declaradas,
+elas são subclasses diretas de Exception.
+
+- Tratamento obrigatório: O compilador exige que você trate essas exceções usando bloco try-catch
+ou declare que o método pode lançá-las usando a cláusula throws.
+
+O Java aponta o erro e não deixar o fluxo do código continuar.
+
+- Uso comum: São usadas para situações que o programador pode antecipar e tentar recuperar,
+como problemas de I/O ou falhas em conexões de banco de dados.
+
+- 2_Exceções não verificadas(unchecked Exceptions): As exceções não verificadas são aquelas
+que não precisam ser declaradas ou tratadas explicitamente. Elas são subclasses de RuntimeException.
+
+- Tratameto opcional: O compilador não exige que você trate essas exceções.
+você pode, mas não é obrigado a usar bloco try-catch ou declarar que o método pode lançá-las.
+
+- Uso comum: São usadas para indicar erros de programação, como lógica errada,
+erros de aritmética(como dividir por zero), ou acesso a índices invalidos de arrays.
+(Situações de regra de negócio).
+
+- DUAS FROMAS DE TRATAR EXCEÇÕES
+
+- Mais utilizada:
+public void nomeMetodo(){
+try{
+//implementação
+}catch(tipoDeExceção e){Exception ou RuntimeException
+//código para tratar a exceção("Geralmente uma frase")
+}finally{
+não obrigatorio
+}}
+
+PADRÃO, Noemalmente utilizada try-catch no dia a dia.
+
+- Menos utilizada:
+
+public void nomeMetodo() throws tipoDeExceção{
+//implementação
+}
+
+EXCEÇÃO, Pouco utilizado no dia a dia.
+
+
+- CRIAÇÃO DE EXCEÇÕES
+
+- Na criação de exceções é importante que elas sejam criadas com o código status HTTP adequado.
+- A exceção personalizada extende de uma RuntimeException ou Exception.
+
+
+
