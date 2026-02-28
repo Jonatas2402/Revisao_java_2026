@@ -12,17 +12,12 @@ public class Conta {
     private String titular;
     private double saldo;
     private Tipo tipo;
-    private double limite;
     List<Movimentacao> extrato;
 
     public Conta(int numeroConta, String titular, double saldo, Tipo tipo) {
         this.numeroConta = numeroConta;
         this.titular = titular;
         this.tipo = tipo;
-        if (tipo.equals(Tipo.POUPANCA)) {
-            this.limite = 0;
-        }
-        this.limite = limite;
         this.saldo = 0;
         this.extrato = new ArrayList<>();
     }
@@ -98,13 +93,6 @@ public class Conta {
         this.tipo = tipo;
     }
 
-    public double getLimite() {
-        return limite;
-    }
-
-    public void setLimite(double limite) {
-        this.limite = limite;
-    }
 
     public List<Movimentacao> getExtrato() {
         return extrato;

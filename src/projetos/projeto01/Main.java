@@ -6,7 +6,9 @@ import java.util.Scanner;
 
 public class Main {
     static List<Conta> contas = new ArrayList<>();
+
     static Scanner sc = new Scanner(System.in);
+
     public static Conta buscarConta(int numero) {
         for (Conta c : contas) {
             if (c.getNumeroConta() == numero) {
@@ -31,7 +33,7 @@ public class Main {
             try {
                 switch (opcao) {
                     case 1:
-                        System.out.print("Numero: ");
+                        System.out.print("Numero da conta: ");
                         int numero = sc.nextInt();
                         sc.nextLine();
 
