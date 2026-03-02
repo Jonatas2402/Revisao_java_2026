@@ -1,0 +1,20 @@
+REST
+
+- O QUE É REST E COMO FUNCIONA
+
+- REST(Representational state transfer). REST é um estilo arquitetural para criar APIs que permite
+a comunicação entre sistemas pela internet de maneira simples e eficiente. Aqui estão os principais conceitos e
+componentes do REST.
+
+- 1 Recursos
+Em REST, tudo é tratado como um recurso. Um recurso é qualquer coisa que pode ser acessada ou manipulada,
+como dados de um usuário, produtos em um catálogo, ou tarefas em uma lista de tarefas.
+
+URI(Uniform Resource Identifier): Cada recurso é identificado por uma URI única. Por exemplo, a URI para acessar
+todas as tarefas poderia ser /tarefas, e a URI para acessar uma tarefa especifica poderia ser
+/tarefas/{id} é o identificador de tarefas.
+
+- 2 Verbos HTTP
+REST usa verb os HTTP para definir ações a serem realizadas nos recursos. Os verbos mais
+comuns são:
+

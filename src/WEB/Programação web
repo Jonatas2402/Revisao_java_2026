@@ -8,4 +8,12 @@ web.
 - FRONT-END:
 - Refere-se a parte da aplicação onde o usuário vê e interage.
 Tecnologias principais: HTML, CSS, Javascript, framework como React, Angular, Vue.js.
-Exemplo: Quando visitamos um site de comercio eletrônico, tudo
+Exemplo: Quando visitamos um site de comercio eletrônico, tudo que você vê, desde as imagens dos produtos
+até os botões de compra, é criado usadno tecnologias front-end.
+
+- BACK-END:
+- Refere-se a parte da aplicação que lida com a lógica de negócios, manipulação de dados
+e comunicação com banco de dados.
+Tecnologias principais: linguagens como Java, python, Node.js, ruby e frameworks como Spring, django, Express.
+Exempllo: quando você faz um pedido em um site de comercio eletrônico, o backend processa o pedido, verifica o estouqe,
+calcula o  preço final e registra a transação no banco de dados.
